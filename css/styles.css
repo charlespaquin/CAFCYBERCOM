@@ -31,3 +31,19 @@
 .timeline-event p {
   margin-left: 0px; /* Added margin-left to event details */
 }
+
+#biographies img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#biographies p {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  #biographies img {
+    margin-right: 20px;
+  }
+}
