@@ -53,13 +53,7 @@
 }
 
 
-#hero {
-  /* Remove these lines since you're handling the background in HTML */
-  /* background-image: url('/img/canadian-armed-forces-march.jpg'); */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  
+#hero {  
   height: 100vh;
   position: relative;
   display: flex;
