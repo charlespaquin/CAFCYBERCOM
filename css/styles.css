@@ -76,6 +76,15 @@
   z-index: -1;
 }
 
+#get-there .card {
+  margin: 0 auto; /* Ensures the card stays centered */
+}
+
+#get-there img {
+  max-width: 100%; /* Makes sure the image stays responsive */
+}
+
+
 @media (min-width: 768px) {
   #biographies img {
     margin-right: 20px;
