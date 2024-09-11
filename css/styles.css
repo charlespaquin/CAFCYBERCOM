@@ -42,6 +42,47 @@
   text-align: justify;
 }
 
+.navbar {
+  background-color: rgba(253, 253, 253, 0.8); /* White with slight transparency */
+  backdrop-filter: blur(10px); /* Applies the blur effect to the content behind */
+  -webkit-backdrop-filter: blur(10px); /* Ensures support for Webkit-based browsers */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000; /* Ensures the text remains black */
+}
+
+
+#hero {
+  background-image: url('https://i.cbc.ca/1.6894167.1688149331!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_780/canadian-armed-forces-march.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Ensure darkening is subtle */
+  z-index: -1;
+}
+
+
+
+
+
 @media (min-width: 768px) {
   #biographies img {
     margin-right: 20px;
