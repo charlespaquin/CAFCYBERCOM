@@ -3,7 +3,7 @@
 /* Define Century Gothic Regular */
 @font-face {
   font-family: 'Century Gothic';
-  src: url('/font/CenturyGothic-Regular.ttf') format('truetype');
+  src: url('/font/CenturyGothic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@
 
 /* Apply Century Gothic to the entire webpage */
 body {
-  font-family: 'Century Gothic', sans-serif;
+  font-family: 'Century Gothic', 'Times New Roman', Times, sans-serif;
   font-weight: normal;
 }
 
@@ -26,11 +26,6 @@ body {
 strong, b {
   font-weight: bold;
 }
-
-h1, h2, h3, p {
-  font-family: 'Century Gothic', sans-serif;
-}
-
 
 .timeline {
   position: relative;
