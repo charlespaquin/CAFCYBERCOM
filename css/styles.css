@@ -84,9 +84,45 @@
   max-width: 100%; /* Makes sure the image stays responsive */
 }
 
-
-@media (min-width: 768px) {
-  #biographies img {
-    margin-right: 20px;
-  }
+#biographies .row {
+  margin-bottom: 60px; /* Increase space between biographies */
 }
+
+#biographies img {
+  width: 300px; /* Ensure a consistent width for all images */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between the image and the text */
+}
+
+#biographies .col-md-4 {
+  display: flex;
+  justify-content: flex-start; /* Aligns image and content to the top */
+}
+
+#biographies .col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#biographies h3 {
+  margin-top: 0; /* Remove any unnecessary top margin */
+  padding-top: 10px; /* Fine-tune the positioning of the title */
+}
+
+@media (max-width: 767.98px) {
+  #biographies img {
+    margin-bottom: 20px; /* Adds space below the image on mobile */
+    margin-right: 0; /* Remove margin on smaller screens */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the image */
+  }
+
+  #biographies .col-md-4 {
+    justify-content: center; /* Center the image column on mobile */
+  }
+
+  #biographies .col-md-8 {
+    text-align: center; /* Optionally center text on mobile if desired */
+  }
