@@ -1,3 +1,33 @@
+
+
+/* Define Century Gothic Regular */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('font/CenturyGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Define Century Gothic Bold */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('font/CenturyGothic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply Century Gothic to the entire webpage */
+body {
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: normal;
+}
+
+/* Ensure bold text uses the bold version of Century Gothic */
+strong, b {
+  font-weight: bold;
+}
+
+
 .timeline {
   position: relative;
   padding-left: 50px; /* Increased padding further to create enough space */
