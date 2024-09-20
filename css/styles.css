@@ -94,14 +94,21 @@ body {
 }
 
 .navbar {
+  position: sticky; /* Keeps the navbar at the top of the viewport */
+  top: 0;
+  z-index: 1050; /* Increase z-index to ensure it is on top */
   background-color: rgba(253, 253, 253, 0.8); /* White with slight transparency */
-  backdrop-filter: blur(10px); /* Applies the blur effect to the content behind */
-  -webkit-backdrop-filter: blur(10px); /* Ensures support for Webkit-based browsers */
+  backdrop-filter: blur(10px); /* Applies blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Ensures support for Webkit-based browsers (Safari, iOS) */
+  width: 100%; /* Ensure the navbar spans the full width of the page */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Optional: adds a slight border to visually separate the navbar */
 }
+
 
 .navbar-light .navbar-nav .nav-link {
   color: #000; /* Ensures the text remains black */
 }
+
 
 
 #welcome {
