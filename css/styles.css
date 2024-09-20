@@ -168,6 +168,14 @@ body {
   padding-top: 10px; /* Fine-tune the positioning of the title */
 }
 
+footer img {
+  display: block;
+  margin: 0 auto; /* Center the image */
+  max-width: 100%;
+  height: auto;
+}
+
+
 @media (max-width: 767.98px) {
   #biographies img {
     margin-bottom: 20px; /* Adds space below the image on mobile */
