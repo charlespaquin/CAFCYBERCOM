@@ -1,24 +1,24 @@
 
 
 /* Define Century Gothic Regular */
-@font-face {
+/* @font-face {
   font-family: 'Century Gothic';
   src: url('/font/CenturyGothic.woff2') format('woff2'),
        url('/font/CenturyGothic.woff') format('woff'),
        url('/font/CenturyGothic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /* Define Century Gothic Bold */
-@font-face {
+/* @font-face {
   font-family: 'Century Gothic';
   src: url('/font/CenturyGothic-Bold.woff2') format('woff2'),
        url('/font/CenturyGothic-Bold.woff') format('woff'),
        url('/font/CenturyGothic-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 /* Apply Century Gothic globally */
 /* body {
