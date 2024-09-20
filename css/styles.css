@@ -21,20 +21,20 @@
 }
 
 /* Apply Century Gothic globally */
-body {
+/* body {
   font-family: 'Century Gothic', sans-serif;
   font-weight: normal;
-}
+} */
 
 /* Ensure bold text uses the bold version of Century Gothic */
-strong, b {
+/* strong, b {
   font-weight: bold;
-}
+} */
 
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5 {
   font-weight: bold;
-}
+} */
 
 .timeline {
   position: relative;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5 {
 }
 
 
-#hero {
+#welcome {
 
   height: 100vh;
   position: relative;
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5 {
   z-index: 1;
 }
 
-#hero::before {
+#welcome::before {
   content: '';
   position: absolute;
   top: 0;

@@ -6,6 +6,19 @@
     <title>CAF Cyber Command Establishment Ceremony | Cérémonie d'inauguration du Commandement Cyber des FAC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </symbol>
+      <symbol id="info-fill" viewBox="0 0 16 16">
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+      </symbol>
+      <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </symbol>
+    </svg>
+
   </head>
   <body>
 
@@ -18,7 +31,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#welcome">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="#get-there">How to get there</a></li>
               <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
               <li class="nav-item"><a class="nav-link" href="#biographies">Biographies</a></li>
@@ -29,8 +42,8 @@
       </nav>
 
     
-      <!-- Hero Section -->
-      <section id="hero" class="vh-100 d-flex align-items-center justify-content-center text-white text-center"
+      <!-- Welcome Section -->
+      <section id="welcome" class="vh-100 d-flex align-items-center justify-content-center text-white text-center"
         style="background-image: url(img/canadian-armed-forces-march.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="container">
           <h1 class="display-4">Welcome to the Canadian Armed Forces Cyber Command Establishment Ceremony</h1>
@@ -60,54 +73,100 @@
       </section>
 
  
-      <!-- Schedule Section -->
-      <section id="schedule" class="py-5 bg-light">
-        <div class="container mt-4">
-          <h2 class="text-center mb-4">Event Schedule</h2>
-          <div class="timeline">
-            <div class="timeline-event">
-              <h5>09:45</h5>
-              <p>Parade mustered</p>
-            </div>
-            <div class="timeline-event">
-              <h5>09:55</h5>
-              <p>Commander of the Canadian Armed Forces Cyber Command receives general salute</p>
-            </div>
-            <div class="timeline-event">
-              <h5>09:59</h5>
-              <p>Minister of National Defence, Chief of Defence Staff, Canadian Armed Forces Chief Warrant Officer arrival</p>
-            </div>
-            <div class="timeline-event">
-              <h5>10:00</h5>
-              <p>Ceremony begins – Chief of Defence Staff receives general salute</p>
-            </div>
-            <div class="timeline-event">
-              <h5>10:05</h5>
-              <p>Inspection of the troops.</p>
-            </div>
+<!-- Schedule Section -->
+<section id="schedule" class="py-5 bg-light">
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Please note:</strong> All times in the schedule below are approximate.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Event Schedule</h2>
+    <div class="timeline">
 
-            <div class="timeline-event">
-              <h5>10:20</h5>
-              <p>March past – Signing of the Assumption of Command Certificate&nbsp;– Addresses from MND, CDS, Cyber Command Commander, Cyber Command Chief Warrant Officer</p>
-            </div>
-            <div class="timeline-event">
-              <h5>10:55</h5>
-              <p>Advance in review order</p>
-            </div>
-            <div class="timeline-event">
-              <h5>10:57</h5>
-              <p>CDS receives general salute and departs</p>
-            </div>
-            <div class="timeline-event">
-              <h5>10:58</h5>
-              <p>National anthem</p>
-              <div class="timeline-event">
-                <h5>10:59</h5>
-                <p>Commander of the Canadian Armed Forces Cyber Command receives general salute and departs</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- 09:45 - Parade formed up -->
+      <div class="timeline-event">
+        <h5>09:45</h5>
+        <p>All attendees are seated. <br> Parade is formed up.</p>
+      </div>
+
+      <!-- 10:00 - Arrive at Leitrim Mess -->
+      <div class="timeline-event">
+        <h5>10:00</h5>
+        <p>Ceremony begins.</p>
+      </div>
+
+      <!-- 10:08 - Comd takes podium -->
+      <div class="timeline-event">
+        <h5>10:08</h5>
+        <p>Commander-designate, MGen Yarker, takes the podium. <br> General Salute.</p>
+      </div>
+
+      <!-- 10:11 - MND takes podium -->
+      <div class="timeline-event">
+        <h5>10:11</h5>
+        <p>Minister of National Defence, Hon. Bill Blair, takes the podium.</p>
+      </div>      
+
+      <!-- 10:15 - CDS takes podium -->
+      <div class="timeline-event">
+        <h5>10:15</h5>
+        <p>Chief of the Defence Staff takes the podium.</p>
+      </div>
+
+      <!-- Inspection -->
+      <div class="timeline-event">
+        <h5>10:16</h5>
+        <p>Inspection by the inspecting party: Minister of National Defence (MND), Chief of the Defence Staff (CDS), Commander-designate, and Command Chief Warrant Officer-designate (CWO).</p>
+      </div>
+
+      <!-- March Past -->
+      <div class="timeline-event">
+        <h5>10:30</h5>
+        <p>March Past.</p>
+      </div>
+
+      <!-- Signing of Command Appointment -->
+      <div class="timeline-event">
+        <h5>10:35</h5>
+        <p>Signing of the Command and CWO appointments in front of the dais.</p>
+      </div>
+
+      <!-- Speeches (15 minutes duration) -->
+      <div class="timeline-event">
+        <h5>10:37</h5>
+        <p>Speeches from CDS, MND, and Comd.</p>
+      </div>      
+
+      <!-- Advance in Review Order (Now starts at 10:52) -->
+      <div class="timeline-event">
+        <h5>10:52</h5>
+        <p>Advance in Review Order.</p>
+      </div>
+
+      <!-- CDS departure (Now starts at 10:54) -->
+      <div class="timeline-event">
+        <h5>10:54</h5>
+        <p>CDS receives General Salute and departs.</p>
+      </div>
+
+      <!-- National Anthem (Now starts at 10:55) -->
+      <div class="timeline-event">
+        <h5>10:55</h5>
+        <p>National Anthem (O Canada).</p>
+      </div>
+
+      <!-- Commander departure (Now starts at 10:56) -->
+      <div class="timeline-event">
+        <h5>10:56</h5>
+        <p>Commander of the Canadian Armed Forces Cyber Command receives General Salute and departs.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
 
       <!-- Biographies Section -->
       <section id="biographies" class="py-5">
@@ -178,24 +237,20 @@
             <div class="col-md-8">
               <h3>Major-General Dave Yarker, CD</h3>
               <h4>Commander-Designate Canadian Armed Forces Cyber Command</h4>
-              <p>
-                Major-General Dave Yarker joined the Canadian Forces in 1989, graduating from the Royal Military College of Canada (RMC) Kingston in 1993. Following completion of Graduate studies and Signals officer Training in 1996 he served with 2 Bde as a Signals Officer in both 427 Tactical Helicopter Squadron and 2 Combat Engineer Regiment.
-              </p>
-              <p>
-                He has been employed as staff in project management, joint, operational and strategic communications planning and deployed as the Canadian J6 to both Kosovo and Afghanistan. He has had the honour of command at 2 Canadian Mechanised Brigade Group Headquarters and Signals Squadron, the Canadian Forces Network Operations Centre, and the Canadian Forces Information Operations Group.
-              </p>
-              <p>
-                Since 2010, he has had the good fortune to have been employed in the cyber operations field, commanding at Unit and Formation levels as well as holding key staff and liaison positions including with United States Cyber Command and Canada’s Communications Security Establishment.
-              </p>
-              <p>
-                On promotion to his current rank he was appointed as Director General Information Management Operations and the Joint Force Cyber Component Commander.
-              </p>
-              <p>
-                He holds undergraduate degrees in Engineering Physics and History, along with master’s degrees in Engineering Physics and Defence Studies.
-              </p>
-              <p>
-                MGen Yarker is married and the couple lives in Ottawa with their son.
-              </p>
+              <p>Major General (MGen) Dave Yarker joined the Canadian Forces in 1989, graduating from the Royal Military College of Canada (RMC) Kingston in 1993. Following completion of Graduate studies and Signals officer Training in 1996 he served with 2 Bde as a Signals Officer in both 427 Tactical Helicopter Squadron and 2 Combat Engineer Regiment.</p>
+
+              <p>He has been employed as staff in project management, joint, operational and strategic communications planning and deployed as the Canadian J6 to both Kosovo and Afghanistan. He has had the honour of command at 2 Canadian Mechanised Brigade Group Headquarters and Signals Squadron, the Canadian Forces Network Operations Centre, and the Canadian Forces Information Operations Group.</p>
+              
+              <p>Since 2010, he has had the good fortune to have been employed in the cyber operations field, commanding at Unit and Formation levels as well as holding key staff and liaison positions including with United States Cyber Command and Canada’s Communications Security Establishment.</p>
+              
+              <p>In 2022, he was then appointed as Director General Information Management Operations and the Joint Force Cyber Component Commander which became the Director General Cyber and Command and Control Information Systems Operations in 2024.</p>
+              
+              <p>On promotion to his current rank, he was appointed Cyber Force Commander.</p>
+              
+              <p>He holds undergraduate degrees in Engineering Physics and History, along with master’s degrees in Engineering Physics and Defence Studies.</p>
+              
+              <p>Major-General Yarker is married and the couple lives in Ottawa with their son.</p>
+              
             </div>
           </div>
           <!-- CWO Holub -->
@@ -208,27 +263,21 @@
             <div class="col-md-8">
               <h3>Chief Warrant Officer Peter Holub, CD</h3>
               <h4>Command Chief Warrant Officer-Designate Canadian Armed Forces Cyber Command</h4>
-              <p>
-                Born and raised in Ottawa, Ontario, Chief Warrant Officer Peter Holub participated at a young age with Boy Scouts and Army Cadets. These experiences led him to enlist in the Canadian Armed Forces in 1994 with the Primary Reserve as an Administrative Clerk with the 30th Field Regiment, RCA.
-              </p>
-              <p>
-                In 1996, he transferred to the Regular Force in the military engineering service to become a Water, Fuels and Environment Technician. In 2003, he occupationally transferred to become a Signals Intelligence Specialist.
-              </p>
-              <p>
-                CWO Holub has served with the Canadian Army and Royal Canadian Air Force in various capacities and in numerous locations in Canada and overseas. He was employed at 4 Wing Cold Lake, 8 Wing Trenton, CFB Kingston, CFS Leitrim Ottawa, National Defense Headquarters in Ottawa and 2 Wing Bagotville.
-              </p>
-              <p>
-                He has served in Engineer Augmentation Operations in a variety of capacities: Technician, Senior Technician, and Fluids Site Manager. He participated in operations as a ground electronic warfare detachment commander and remote systems electronic warfare specialist. He continued his career development by becoming the Career Manager for the professions of SIGINT Specialists and Cyber Operators. Following language training he was posted to 2 Wing Bagotville as the Squadron Warrant Officer for 2 Mission Support Squadron.
-              </p>
-              <p>
-                CWO Holub's operational tours of duty include supporting 441 Squadron on Operation ECHO, Italy, 23 Engineer Squadron on Operation KINETIC, Kosovo, TAL-DET as part of Operation APOLLO, at Camp Mirage. He was redeployed to Afghanistan on Operation ATHENA as a ground electronic warfare operator twice, once in support of ISAF and once in support of CANSOFCOM. He was deployed twice on Operation REASSURANCE, once with ATF-Romania AFAST 22 and most recently with ATF-Latvia AFAST 24.
-              </p>
-              <p>
-                CWO Holub is appointed to be the DG Information Management Operations/Joint Force Cyber Component CWO in Aug 2024.
-              </p>
-              <p>
-                His continued loyalty to the Canadian Armed Forces is largely due to the unwavering love and support of his wife and daughter.
-              </p>
+
+              <p>Born and raised in Ottawa, Ontario, Chief Warrant Officer Peter Holub participated at a young age with Boy Scouts and Army Cadets. These experiences led him to enlist in the Canadian Armed Forces in 1994 with the Primary Reserve as an Administrative Clerk with the 30th Field Regiment, RCA.</p>
+
+              <p>In 1996, he transferred to the Regular Force in the military engineering service to become a Water, Fuels and Environment Technician. In 2003, he occupationally transferred to become a Signals Intelligence Specialist.</p>
+              
+              <p>CWO Holub has served with the Canadian Army and Royal Canadian Air Force in various capacities and in numerous locations in Canada and overseas. He was employed at 4 Wing Cold Lake, 8 Wing Trenton, CFB Kingston, CFS Leitrim Ottawa, National Defense Headquarters in Ottawa and 2 Wing Bagotville.</p>
+              
+              <p>He has served in Engineer Augmentation Operations in a variety of capacities: Technician, Senior Technician, and Fluids Site Manager. He participated in operations as a ground electronic warfare detachment commander and remote systems electronic warfare specialist. He continued his career development by becoming the Career Manager for the professions of SIGINT Specialists and Cyber Operators. Following language training he was posted to 2 Wing Bagotville as the Squadron Warrant Officer for 2 Mission Support Squadron.</p>
+              
+              <p>CWO Holub's operational tours of duty include supporting 441 Squadron on Operation ECHO, Italy, 23 Engineer Squadron on Operation KINETIC, Kosovo, TAL-DET as part of Operation APOLLO, at Camp Mirage. He was redeployed to Afghanistan on Operation ATHENA as a ground electronic warfare operator twice, once in support of ISAF and once in support of CANSOFCOM. He was deployed twice on Operation REASSURANCE, once with ATF-Romania AFAST 22 and most recently with ATF-Latvia AFAST 24.</p>
+              
+              <p>CWO Holub is appointed the Cyber Command Chief Warrant Officer.</p>
+              
+              <p>His continued loyalty to the Canadian Armed Forces is largely due to the unwavering love and support of his wife and daughter.</p>
+              
             </div>
           </div>
         </div>
@@ -266,7 +315,7 @@
       <!-- Footer -->
       <footer class="py-4 bg-dark text-white text-center">
         <div class="container">
-          <p>&copy; 2024 CAFCYBERCOM Communications. All rights reserved. Last update: 12 September 2024, 14:14</p>
+          <p>&copy; 2024 CAFCYBERCOM Communications. All rights reserved. Last update: 20 September 2024, 00:02</p>
         </div>
       </footer>
 
