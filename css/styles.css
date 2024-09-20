@@ -94,6 +94,8 @@ body {
 }
 
 .navbar {
+  display: flex;
+  align-items: center; /* Vertically centers the content */  
   position: sticky; /* Keeps the navbar at the top of the viewport */
   top: 0;
   z-index: 1050; /* Increase z-index to ensure it is on top */
@@ -112,10 +114,12 @@ body {
 /* Ensure proper spacing between the wordmark and the navbar toggle */
 .navbar-toggler {
   margin-left: auto; /* Pushes the toggle button to the right */
+  align-self: center; /* Vertically centers the toggle button */
 }
 
 .navbar-brand {
   flex-grow: 1; /* Ensures the brand (wordmark) occupies space and aligns correctly */
+  align-self: center; /* Vertically centers the wordmark */
 }
 
 
@@ -188,7 +192,7 @@ footer img {
 
 @media (max-width: 767.98px) {
   .navbar-brand img {
-    width: 200px; /* Reduce the wordmark width on small screens */
+    width: 250px; /* Further reduce the width on smaller screens */
   }
   #biographies img {
     margin-bottom: 20px; /* Adds space below the image on mobile */
