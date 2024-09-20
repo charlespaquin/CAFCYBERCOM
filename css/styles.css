@@ -122,6 +122,13 @@ body {
   align-self: center; /* Vertically centers the wordmark */
 }
 
+.navbar-brand img {
+  max-height: 30px; /* Restricts the height of the image to 30px */
+  height: auto; /* Maintains aspect ratio while resizing */
+  width: auto; /* Ensures the width scales with the height */
+}
+
+
 
 
 #welcome {
