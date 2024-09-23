@@ -188,6 +188,13 @@ body {
   padding-top: 10px; /* Fine-tune the positioning of the title */
 }
 
+#organization img {
+  width: 250px; /* Reduce the image width by 50% */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Ensure spacing between image and text */
+}
+
+
 footer img {
   display: block;
   margin: 0 auto; /* Center the image */
@@ -216,5 +223,14 @@ footer img {
   #biographies .col-md-8 {
     text-align: center; /* Optionally center text on mobile if desired */
   }
+
+  #organization img {
+    margin-bottom: 20px; /* Adds space below the image on mobile */
+    margin-right: 0; /* Remove margin on smaller screens */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the image */
+  }
+
 
 }
