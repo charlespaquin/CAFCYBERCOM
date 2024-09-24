@@ -189,7 +189,7 @@ body {
 }
 
 #organization img {
-  width: 250px; /* Reduce the image width by 50% */
+  width: 200px; /* Reduce the image width by 50% */
   height: auto; /* Maintain aspect ratio */
   margin-right: 20px; /* Ensure spacing between image and text */
 }
